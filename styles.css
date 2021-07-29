@@ -29,7 +29,7 @@ section div:nth-child(3) {
 }
 
 @media screen and (max-width: 768px) {
-  section div {
-    width: 100%;
+  section {
+    grid-template-columns: 1fr;
   }
 }
