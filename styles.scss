@@ -4,28 +4,32 @@
     box-sizing: border-box;
 }
 
-nav {
-    width: 100%;
-    height: 50px;
-    background-color: cornflowerblue;
+header {
+    grid-area: header
 }
 
-section {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    padding: 20px;
+nav{
 
-div {
-    height: 100px;
-    background-color: crimson;
 }
 
+    main {
 
     
+    }
+
+aside {
+
+}    
+
+footer {
+
 }
+
+
+section {
+    
+}
+
 
 @media screen and (max-width: 768px) {
     section {
