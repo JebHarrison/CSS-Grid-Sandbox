@@ -9,25 +9,26 @@ header {
 }
 
 nav{
-
+    grid-area: menu;
 }
 
-    main {
-
+main {
+    grid-area: main;
     
     }
 
 aside {
-
+    grid-area: right;
 }    
 
 footer {
-
+    grid-area: footer;
 }
 
 
 section {
-    
+    display: grid;
+    grid-template-areas: ;
 }
 
 
