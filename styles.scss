@@ -35,9 +35,6 @@ div {
 
 @media screen and (max-width: 768px) {
     section {
-        div {
-            width: 100%;
-        }
-
+        grid-template-columns: 1fr;
     }
 }
