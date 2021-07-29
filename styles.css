@@ -14,18 +14,11 @@ section {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 section div {
   height: 100px;
-}
-section div:nth-child(1) {
-  background-color: red;
-}
-section div:nth-child(2) {
-  background-color: orange;
-}
-section div:nth-child(3) {
-  background-color: yellow;
+  background-color: crimson;
 }
 
 @media screen and (max-width: 768px) {
