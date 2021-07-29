@@ -27,3 +27,9 @@ section div:nth-child(2) {
 section div:nth-child(3) {
   background-color: yellow;
 }
+
+@media screen and (max-width: 768px) {
+  section div {
+    width: 100%;
+  }
+}
