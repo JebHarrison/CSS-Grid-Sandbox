@@ -12,11 +12,11 @@ nav {
 
 section {
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 section div {
-  width: 33%;
   height: 100px;
-  display: inline-block;
 }
 section div:nth-child(1) {
   background-color: red;
