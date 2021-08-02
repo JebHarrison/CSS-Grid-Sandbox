@@ -28,7 +28,21 @@ footer {
 
 section {
     display: grid;
-    grid-template-areas: ;
+    grid-template-areas: 
+        "header header header header header header"
+        "menu main main main right right"
+        "menu footer footer footer footer footer"
+        ;
+        gap: 10px;
+        background-color: cornflowerblue;
+        padding: 10px;
+
+        & > * {
+            background-color: cornsilk;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
 }
 
 
